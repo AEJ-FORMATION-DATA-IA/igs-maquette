@@ -37,7 +37,7 @@ img{
     
 }
 .igs-Fnav .igs-vavigat li a{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500px;
     margin-left: 0px;
     transition: color 0.3s ease;
@@ -45,6 +45,7 @@ img{
     text-align: center; 
     padding: 14px 9px; 
     text-decoration: none; 
+    
 }
 li {
     float: left;
@@ -60,14 +61,14 @@ li {
     box-sizing: border-box;
   }
   
-  .header {   
+  .igs-header {   
     width:90px;
    margin-left: 850px;
     
   }
   
   
-  .cote1 {
+  .igs-cote1 {
     font-size: 30px;
     width: 60%;
     float: left;
@@ -79,7 +80,7 @@ li {
 
   
   
-  .main1 {
+  .igs-main1 {
       font-family: sans-serif;
     float: left;
     padding: 100px;
@@ -90,22 +91,22 @@ li {
 
 
 }
-.flex-container .main1 h2{
+.igs-flex-container .igs-main1 h2{
     margin: 15px;
     background-color: rgb(60, 66, 95)
 }
-.flex-container .main1 h4{
+.igs-flex-container .igs-main1 h4{
     margin: 15px;
     background-color: rgb(60, 66, 95)
 }
-.flex-container .main1 p{
+.igs-flex-container .igs-main1 p{
     line-height:2;
     margin: 15px;
     background-color: rgb(60, 66, 95)
 }
  
   
-  .main2 {
+  .igs-main2 {
       font-family: sans-serif;
     float: left;
     padding: 100px;
@@ -115,37 +116,36 @@ li {
     
   }
 
-  .flex-containe .main2 h2{
+  .igs-flex-containe .igs-main2 h2{
     margin: 15px;
     background-color: rgb(60, 66, 95)
 }
-.flex-containe .main2 h4{
+.igs-flex-containe .igs-main2 h4{
     margin: 15px;
     background-color: rgb(60, 66, 95)
 }
-.flex-containe .main2 p{
+.igs-flex-containe .igs-main2 p{
     line-height:2;
     margin: 15px;
     background-color: rgb(60, 66, 95)
 }
 
-  .flex-container {
+  .igs-flex-container {
     display: flex;
   }
 
-  .flex-container .main1{
+  .igs-flex-container .igs-main1{
       float: left;
       margin-left: 400px;
       width: 780px;
-      border: 1px solid green;
       border-radius: 3px ;
 
     }
-    .flex-container .cote1 {
+    .igs-flex-container .igs-cote1 {
         text-align: center;
     }
 
-  .flex-container > div {
+  .igs-flex-container > div {
     width: 450px;
     margin: 10px;
     padding: 0px;
@@ -154,40 +154,40 @@ li {
 
   
 
-  .flex-containe {
+  .igs-flex-containe {
     display: flex;
   }
 
-  .flex-containe .main2{
+  .igs-flex-containe .igs-main2{
       float: left;
       margin-left: 400px;
       width: 750px;
 
     }
 
-  .flex-containe > div {
+  .igs-flex-containe > div {
     width: 450px;
     margin: 10px;
     padding: 0px;
    
   }
-  .flex-containe .cote2 h2{
+  .igs-flex-containe .igs-cote2 h2{
       font-weight: bold;
   }
-  .flex-containe .cote2{
+  .igs-flex-containe .igs-cote2{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1;
     }
-    .flex-containe .cote2 a{
+    .igs-flex-containe .igs-cote2 a{
         font-weight: bold;
     }
 
   /*seconde section*** */
 
-  .grid {
+  .igs-grid {
     display: flex;
     flex-wrap: nowrap;}
-  .grid-container {
+  .igs-grid-container {
     display: grid;
     grid-template-columns:  auto;
     padding: 10px;
@@ -195,47 +195,119 @@ li {
    margin: 50px;
   }
 
-  .grid-conteneur1{
+  .igs-grid-conteneur1{
     display:flex;
     flex-direction: column;
     justify-content: center;
     max-width: 300px;
     height: 300px;
     align-items:center ;
-    border: 2px solid orange;
     grid-gap: 5px;
     background: rgb(63, 114, 209);
   }
-  .grid-conteneur1 .grid-item1{
+  .igs-grid-conteneur1 .igs-grid-item1{
     border-radius: 4px;
     background: rgb(63, 114, 209);
     margin-top: 10px;
   }
-  .grid-conteneur1 .grid-item1-1{
+  .igs-grid-conteneur1 .igs-grid-item1-1{
     background: rgb(63, 114, 209);
 
   }
 
-  .grid-conteneur1 .grid-item1-1 h4{
+  .igs-grid-conteneur1 .igs-grid-item1-1 h4{
     background: rgb(63, 114, 209);
 
   }
-  .grid-conteneur1 .grid-item1-1 p{
+  .igs-grid-conteneur1 .igs-grid-item1-1 p{
     background: rgb(63, 114, 209);
 
   }
-  .grid-conteneur1 .grid-item1-1 a{
+  .igs-grid-conteneur1 .igs-grid-item1-1 a{
     background: rgb(63, 114, 209);
 
   }
 
-.grid-conteneur .grid-item p{
+.igs-grid-conteneur .igs-grid-item p{
   display:flex;
   text-align: right;
   justify-content: flex-end;
   }
 
-  .grid-conteneur .grid-item11{
-    border: 1px solid orangered;
-  }
  
+ 
+
+  /*seconde section*** */
+
+  .igs-item1 { grid-area: header; }
+.igs-item2 { grid-area: main; }
+.igs-item3 { grid-area: right; }
+
+.igs-grid-containerd {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 5px;
+  padding: 10px;
+   margin-right:990px;
+}
+
+.igs-grid-containerd > div {
+  padding: 20px 10px;
+  font-size: 30px;
+  margin-right:10px;
+}
+.igs-grid-containerd .igs-item1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+}
+.igs-grid-containerd .igs-item2{
+  line-height:2;
+}
+.igs-grid-containerd .igs-item3{
+  line-height:2;
+}
+
+.igs-grid form{
+  width: 400px;
+  background:rgb(53, 55, 63);
+  text-align: center;
+}
+.igs-grid input{
+  width: 300px;
+  padding: 10px;
+  background:rgb(79, 84, 109);
+  border-radius: 5px;
+
+}
+.igs-grid select{
+  width: 300px;
+  padding: 10px;
+  background:rgb(79, 84, 109);
+  border-radius: 5px;
+
+}
+.igs-grid textarea{
+  background:rgb(79, 84, 109);
+  border-radius: 5px;
+  font-weight:none bold;
+
+
+}
+.igs-grid .igs-dernierInput{
+  background:none;
+  border-radius: none;
+  border: 1px solid white;
+  padding: 20px;
+
+}
+.igs-grid .igs-dernierInput:hover{
+  color: rgb(250, 63, 6);
+  transition: all 0.3s ease;
+}
+form{
+  padding: 20px;
+}
